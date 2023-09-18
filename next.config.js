@@ -3,7 +3,9 @@ const nextConfig = {
   experimental: {
     appDir: false,
   },
-  target: 'serverless',
 };
 
-module.exports = nextConfig;
+module.exports = {
+  nextConfig,
+  target: 'serverless', // add this line
+};
